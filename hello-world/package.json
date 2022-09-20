@@ -1,0 +1,20 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "This repository is in development phase.",
+  "main": "test/oneway.ts",
+  
+  "scripts": {
+    "test": "ts-mocha test/hello-world.ts"
+  },
+  "devDependencies": {
+    "@types/mocha": "latest",
+    "@types/node": "latest",
+    "ts-mocha": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "aptos": "latest",
+    "random-seed": "latest"
+  }
+}
